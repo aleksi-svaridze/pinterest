@@ -9,7 +9,7 @@
     <title>Pinterest</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md py-2-5">
+    <nav class="navbar navbar-expand-md py-2-5 position-fixed bg-white w-100 z-3">
         <div class="container-xxl">
             <a href="#" class="navbar-brand">
                 <img src="./assets/images/brand-logo.svg" class="brand-logo" alt="">
@@ -78,20 +78,16 @@
         </div>
     </nav>
 
-    <div class="container mt-2">
-      <div class="row gx-0 justify-content-center align-items-center">
-        <div class="col-lg-5">
+    <div class="container pt-6">
+      <div class="row justify-content-center">
+        <div class="preview-box rounded-4 d-flex justify-content-center align-items-center p-0">
 
-          <div class="shadow rounded-start-lg-6 position-relative">
-            <img src="./assets/images/preview-img.jpg" class="rounded-start-lg-6 img-fluid" alt="">
-            <img src="./assets/images/img-search-icon.svg" class="position-absolute top-50 img-search-icon" alt="">
+          <div class="preview-box--img-wrapper">
+            <img src="./assets/images/preview-img.jpg" alt="" class="preview-box--img img-fluid rounded-start-4">
           </div>
 
-        </div>
-        <div class="col-lg-5">
-          <div class="shadow rounded-end-lg-6">
-            <img src="./assets/images/preview-img.jpg" class="rounded-end-lg-6 img-fluid" alt="">
-          </div>
+          <div class="preview-box--text-content"></div>
+          
         </div>
       </div>
     </div>
