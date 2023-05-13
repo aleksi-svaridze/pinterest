@@ -1,3 +1,5 @@
+@import './_grid.css';
+
 .brand-logo {
     width: 24px;
     height: 24px;
@@ -16,4 +18,36 @@
 /* utilities */
 .py-2-5 {
     padding: .75rem 0;
+}
+.mt-huge {
+    margin-top: 248px;
+}
+.rounded-end-lg-6 {
+    border-radius: 0 2rem 2rem 0;
+}
+.rounded-start-lg-6 {
+    border-radius: 2rem 0 0 2rem;
+}
+.img-search-icon {
+    width: 44px;
+    height: 44px;
+    right: 20px;
+    transform: translateY(-65%);
+}
+/* ===========> more items section */
+.items {
+    width: 236px;
+    height: 418px;
+}
+.items-badge {
+    top: 8px;
+    left: 8px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.8);
+}
+.item-badge-pins {
+    background-image: url(../images/idea-pin.svg);
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: 6px center;
 }
