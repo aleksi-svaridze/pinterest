@@ -45,8 +45,14 @@ body {
 .py-2-5 {
     padding: .75rem 0;
 }
+.p-4-5 {
+    padding: 2rem;
+}
 .mt-huge {
     margin-top: 248px;
+}
+.mt-6 {
+    margin-top: 59px;
 }
 .pt-6 {
     padding-top: 5.5rem;
@@ -56,18 +62,49 @@ body {
     width: 1016px;
     box-shadow: 0 0 10px rgba(0,0,0, .1);
 }
-.preview-box--img-wrapper {
-    width: 50%;
-}
-.preview-box--text-content {
-    width: 50%;
-}
 .img-search-icon {
     width: 34px;
     height: 34px;
     top: 52%;
     right: 10px;
     cursor: pointer;
+}
+.text-content--settings-icon {
+    width: 20px;
+    height: 20px;
+}
+.save-btn {
+    width: 68.39px;
+    height: 48px;
+    background: var(--color-red);
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+.follow-btn {
+    width: 80.77px;
+    height: 48px;
+    background: var(--color-gray-light);
+
+    font-weight: 600;
+    line-height: 19px;
+    color: var(--color-black);
+    letter-spacing: 1px;
+}
+.user-img {
+    width: 48px;
+    height: 48px;
+}
+.user-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-black);
+}
+.user-followers {
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--color-black);
 }
 @media screen and (min-width: 992px) {
     .img-search-icon {
