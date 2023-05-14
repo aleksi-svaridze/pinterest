@@ -1,0 +1,10 @@
+:root {
+    /* ====> Fonts <========== */
+    --font-inter: 'Inter', sans-serif;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-mono: 'Roboto Mono', monospace;
+
+    /* ====> colors <========== */
+    --color-black: #111111;
+    --color-gray: #333333;
+}
