@@ -72,6 +72,7 @@ body {
 .text-content--settings-icon {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .save-btn {
     width: 68.39px;
@@ -80,6 +81,7 @@ body {
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .follow-btn {
     width: 80.77px;
@@ -89,7 +91,13 @@ body {
     font-weight: 600;
     line-height: 19px;
     color: var(--color-black);
-    letter-spacing: 1px;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+.user-img-wrapper {
+    background-color: var(--color-gray-light);
+    width: 48px;
+    height: 48px;
 }
 .user-img {
     width: 48px;
