@@ -62,6 +62,25 @@ body {
 .preview-box--text-content {
     width: 50%;
 }
+.img-search-icon {
+    width: 34px;
+    height: 34px;
+    top: 52%;
+    right: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+    .img-search-icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .img-search-icon {
+        width: 44px;
+        height: 44px;
+    }
+}
 /* ===========> more items section <================ */
 .items {
     width: 236px;
