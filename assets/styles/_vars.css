@@ -5,8 +5,11 @@
     --font-mono: 'Roboto Mono', monospace;
 
     /* ====> colors <========== */
-    --color-black: #111111;
+    --color-black-1: #111111;
+    --color-black-2: #211922;
     --color-gray: #333333;
     --color-gray-light: #EFEFEF;
+    --color-gray-light-2: #E9E9E9;
+    --color-gray-2: #767676;
     --color-red: #E60023;
 }
