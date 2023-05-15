@@ -57,6 +57,9 @@ body {
 .pt-6 {
     padding-top: 5.5rem;
 }
+.mt-72 {
+    margin-top: 72px;
+}
 /* ===========> Preview box styles <=============== */
 .preview-box {
     width: 1016px;
@@ -113,6 +116,16 @@ body {
     font-size: 14px;
     line-height: 16px;
     color: var(--color-black);
+}
+.comments-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--color-black);
+}
+.comments-desc {
+    line-height: 19px;
+    color: #5F5F5F;
 }
 @media screen and (min-width: 992px) {
     .img-search-icon {
