@@ -8,11 +8,19 @@ body {
 /* ==================> navbar helper classes <============== */
 .navbar-brand::after {
     content: url(../images/arrow-left.svg);
-    width: 18px;
-    height: 13px;
     position: absolute;
     left: 0;
     top: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .nav-link {
     font-weight: 600;
