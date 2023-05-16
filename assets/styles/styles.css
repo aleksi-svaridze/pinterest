@@ -67,6 +67,10 @@ body {
     width: 24px;
     height: 24px;
 }
+.w-square-20 {
+    width: 20px;
+    height: 20px;
+}
 .h-3 {
     height: 3rem;
 }
@@ -98,21 +102,46 @@ body {
 .end-1 {
     right: 1rem;
 }
+.start-1 {
+    left: 1rem;
+}
+@media screen and (min-width: 991px) {
+    .start-1{
+        left: -2rem;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .start-1{
+        left: -2rem;
+    }
+}
+.top-7 {
+    top: 7rem;
+}
 /* ===========> Preview box styles <=============== */
 .preview-box {
     width: 1016px;
     box-shadow: 0 0 10px rgba(0,0,0, .1);
+}
+.side {
+    width: 100%;
+}
+@media screen and (min-width: 768px) {
+    .side {
+        width: 50%;
+    }
+}
+.side-left {
+
+}
+.side-right {
+
 }
 .img-search-icon {
     width: 34px;
     height: 34px;
     top: 52%;
     right: 10px;
-    cursor: pointer;
-}
-.text-content--settings-icon {
-    width: 20px;
-    height: 20px;
     cursor: pointer;
 }
 .save-btn {
