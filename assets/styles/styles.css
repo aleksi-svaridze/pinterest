@@ -6,6 +6,14 @@ body {
     font-weight: 400;
 }
 /* ==================> navbar helper classes <============== */
+.navbar-brand::after {
+    content: url(../images/arrow-left.svg);
+    width: 18px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
 .nav-link {
     font-weight: 600;
     line-height: 19px;
